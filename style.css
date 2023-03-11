@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  li h1{
+    font-family: 'Raleway', sans-serif;
+    margin-right: 3rem;
+    color: white;
+    margin-left: 3rem;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-family: 'NTR', sans-serif;
+    font-size: large;
+  }
+/* button{
+    padding: 0.5rem;
+    border-radius: 30px;
+    background-color: #bbed2f;
+} */
+.parentContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+img{
+    width: 100%;
+    height: fit-content;
+}
+.firsth{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    top: 6rem;
+    left: 5rem;
+    }
+.content{
+    font-family: 'NTR', sans-serif;
+    font-size: large;
+    color: white;
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    width: 50%;
+}
+.first{
+    border:1px solid;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+    border-radius: 30px;
+    background-color: #bbed2f;
+    color: black;
+    position: absolute;
+    top: 35rem;
+    left: 5rem;
+    font-family: 'Raleway', sans-serif;
+    /* font-size: 10px; */
+}
+.second{
+    height: 50px;
+    width: 160px;
+    border-radius: 30px;
+    background-color: #bbed2f;
+    color: black;
+    border: 1px solid;
+    font-family: 'Raleway', sans-serif;
+    /* margin-left: ; */
+}
+.mid-section{
+    margin: 250px 0;
+    text-align: center;
+}
+textarea{
+    padding: 5px 3px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.secondh{
+    color: white;
+    margin-top: 11rem;
+    margin-left: 5rem;
+}
+
+/* card  */
+.features {
+    margin-left: 5rem;
+}
+.features h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.features p{
+    font-family: 'NTR', sans-serif;
+    color: white;
+    font-size: large;
+    margin: 10px;
+}
